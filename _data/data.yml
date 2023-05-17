@@ -3,219 +3,253 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Nikolay Bryskin
+    tagline:  Software Engineer / Engineering Lead / CTO
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: nbryskin@gmail.com
+    timezone: Eastern European Time UTC+03
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: 
+    linkedin: nbryskin
+    xing: 
+    github: nikicat
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter: '@nbryskin'
+    stack-overflow: 1022684/nikicat
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf:
 
     languages:
       title: Languages
       info:
         - idiom: English
+          level: Professional
+
+        - idiom: Russian
           level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Cryptocurrencies
           link:
 
         - item: Snowboarding
           link:
 
-        - item: Cooking
+        - item: Reverse-engineering
           link:
 
 career-profile:
-    title: Career Profile
+    title: Summary
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      A highly adaptable and experienced Tech Lead/Software Engineer, I possess over 10 years of expertise spanning diverse projects, including e-commerce, AI in gaming, and cryptocurrency ventures. Driven by a passion for crafting innovative solutions and exploring new fields, I am in pursuit of a stimulating software or platform engineering position, or a leadership role, where my robust technical skills can be effectively utilized.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: Bachelor of Engineering - BE, Applied Mathematics
+        university: HSE Moscow Institute of Electronics and Mathematics
+        time: 2002 - 2017
 experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Work experience
+  info:
+  - role: Full-stack Engineer
+    time: 2022-12 - 2023-03
+    company: Artifactory
+    company_logo: https://media.licdn.com/dms/image/C4E0BAQGzvR_VBY7aig/company-logo_100_100/0/1678808862602?e=1692230400&v=beta&t=DMMlXA9SIWiyyYpiw8UXficwBpOHZfv96_y7roeMJ2k
+    details: |
+      Designed and developed an AI-driven image generation service utilizing StableDiffusion and open-source technologies. Stack:
+      - GCP
+      - Kubernetes
+      - FastAPI
+      - SvelteJS
+  - role: Full-stack Engineer
+    time: 2022-05 - 2023-01
+    company: Donate4.Fun
+    company_logo: https://media.licdn.com/dms/image/D4E0BAQGQbLI8V1-9Hw/company-logo_100_100/0/1664280306156?e=1692230400&v=beta&t=4sTHEcbwDeDCgnWmGfIPlEfInkxV2jLOaTOFfK6MewI
+    details: |
+      - Developed an open-source donations service powered by Bitcoin Lightning from scratch
+      - Fully hosted on Kubernetes and deployed using Helm
+      - Gained hands-on experience with frontend development using JavaScript and the Svelte framework
+      - Created browser extensions for Chrome and Firefox to enhance user experience and functionality
+      Technology stack
+      - GCP
+      - Kubernetes
+      - LND/RTL
+      - FastAPI
+      - PostgreSQL
+      - SvelteJS
+      - GitHub Actions
+  - role: CTO / Head of Engineering
+    time: 2020-03 - 2022-08
+    company: GOSU Data Lab, Lithuania, Vilnius
+    company_logo: https://media.licdn.com/dms/image/C4D0BAQEROtqEfSXe-g/company-logo_200_200/0/1585301240623?e=1692230400&v=beta&t=Qo_YQFvHkfvSTGoSdNmE4Wo7wJYXOm6i7eK5vjvC1aM
+    details: |
+      - Managed a development department and designed architecture for an AI voice game assistant desktop app.
+      - Established a robust development process, incorporating task planning, code review, automated testing, quality assurance, and CI/CD.
+      - Employed/Dismissed engineers
+      - Oversaw the implementation of Kubernetes for production setups, streamlining deployment processes
+      - Developed a voice chatbot using Google DialogFlow and Facebook Blender
+      - Managed a team of data scientists who developed analytical reports and infographics for stakeholders, product owners, and gaming experts by utilizing BigQuery and SQL.
+      - Developed a Unity plugin for mobile app analytics using C#
+      - Developed an Android library for mobile app analytics using Java.
+      - Developed a web service with API for mobile app analytics.
+      Key technologies
+      - GCP, AWS
+      - Python, pytest, Django, FastAPI
+      - BigQuery, DialogFlow, Kubernetes
+      - PostgreSQL
+  - role: Head of Engineering
+    time: 2017-08 - 2020-03
+    company: GOSU Data Lab, Lithuania, Vilnius
+    company_logo: https://media.licdn.com/dms/image/C4D0BAQEROtqEfSXe-g/company-logo_200_200/0/1585301240623?e=1692230400&v=beta&t=Qo_YQFvHkfvSTGoSdNmE4Wo7wJYXOm6i7eK5vjvC1aM
+    details: |
+      - Developed a Gosu.AI post-match analyzer for the Dota 2 MOBA game. Key technologies: Python, Pandas, Java, Docker.
+      - Implemented a management service for a Steam-bot fleet using Python and Django.
+      - Developed a pre-match analyzer and web frontend for CS:GO using key technologies such as Steam CS:GO API scraper, Python, and Django.
+      - Implemented a cheat detection system for CS:GO and Dota 2, utilizing machine learning models trained on player behavioral game data.
+      - Maintained a Kubernetes cluster for the website and match analyzers, implementing autoscaling for optimal performance.
+      - Transitioned from Docker Compose to a fully-fledged Kubernetes cluster for improved scalability and management.
+      - Seamlessly migrated infrastructure from Azure to GCP, ensuring minimal downtime.
+      - Implemented monitoring and incident response procedures for enhanced fault tolerance.
+      - Managed multi-terabyte PostgreSQL instances, refactored tables, optimized indices, and improved query performance.
+  - role: Full-stack Engineer
+    time: 2020-11 - 2021-04
+    company: CPTR.tech
+    company_logo: https://media.licdn.com/dms/image/C560BAQG24gXsa0qNuw/company-logo_100_100/0/1616063928388?e=1692230400&v=beta&t=uznsielq1lCYOrcHga2u86_S4mQMO89P8cC33nEh2o0
+    details: |
+      - Developed a web service that enables motion designers to capture video from a webcam and convert it into real-time 3D model animations. Key technologies
+        - WebRTC
+        - MediaPipe
+        - FastAPI
+        - Python
+      - Developed a plugin for Blender 3D editor to integrate with CPTR.tech
+  - role: Co-Founder / Head of Engineering
+    time: 2015-11 - 2017-08
+    company: Asodesk
+    company_logo: https://media.licdn.com/dms/image/C4E0BAQG-uWUanIB4qg/company-logo_100_100/0/1657005617703?e=1692230400&v=beta&t=M1ccCtkZ6-Y0Z9-26mQP0w57gyYlal9XAiHWLaJ4tj8
+    details: |
+      - Created an analytics web service for App Store and Google Play app optimization
+      - Implemented scrapers for Google Play and App Store using Python and PostgreSQL
+      - Managed and optimized PostgreSQL database and SQL queries
+      - Integrated ML models for the prediction of keyword ranks
+      - Mentored interns
+  - role: Go Software Engineer
+    time: 2015-04 - 2015-08
+    company: Lazada
+    company_logo: https://media.licdn.com/dms/image/C560BAQFLWq6zwV6npw/company-logo_100_100/0/1609837860144?e=1692230400&v=beta&t=6XLqeQ5oHncs-y8cbq8mR9NIoCcmNk4m9ef6BtZ9e1c
+    details: |
+      - Implemented an e-commerce website business logic using Golang
+      - Created and maintained documentation and Docker images for development and testing environments
+  - role: Engineering Lead
+    time: 2012-12 - 2015-03
+    company: Yandex
+    company_logo: https://media.licdn.com/dms/image/C560BAQExT729lfsbuA/company-logo_100_100/0/1618245890497?e=1692230400&v=beta&t=NcE2x7HuW5OzYr1Kltd6oNRUTY89GiVD3uNYZi-XJbc
+    details: |
+      Tech lead for a Monitoring Systems Development Team
+      Responsibilities:
+      - Curated outsourced development of a mobile app
+      - Evaluated and adopted Docker for testing distributed applications
+      - Maintained and improve the stability of a system monitoring service (Zabbix fork)
+      - Maintained and optimized the performance of distributed Graphite
+      - Organized migration from a proprietary monitoring system to Grafana, Graphite, Zabbix.
+      - Launched internal log collection service using Elasticsearch+Logstash+Kibana.
+      - Gathered requirements from clients and plan development for company-wide monitoring and alerting service.
+      - Oversaw and led a development team of five engineers.
+      - Set up and maintain CI-server to build Docker images using Jenkins
+      - Create analytical reports about alert distribution using PostgreSQL.
+  - role: Software Engineer
+    time: 2010-03 - 2012-12
+    company: Yandex
+    company_logo: https://media.licdn.com/dms/image/C560BAQExT729lfsbuA/company-logo_100_100/0/1618245890497?e=1692230400&v=beta&t=NcE2x7HuW5OzYr1Kltd6oNRUTY89GiVD3uNYZi-XJbc
+    details: |
+      Lead developer of internal HTTP proxy service.
+      Responsibilities:
+      - Develop, load-test, and maintain a geographically distributed http proxy service.
+      - Implement control and monitoring panel for proxy service using Django and PostgreSQL.
+      - Implement service for easy bootstrapping of bare-metal proxy devices using PXE and Ubuntu.
+      - Implement Firefox add-on that allows easy use of our proxy service using Backbone and HTML.
+      - Developed and maintained a distributed proxy service that uses consumer browsers as exit nodes using RabbitMQ, Python, JavaScript.
+      - Developed zabbix-agent-ng - an implementation of Zabbix agent capable of multi-threaded metric gathering.
+      - Implemented log collecting and parsing daemon for malware detection purposes. Technologies used: Python, Cython, and Python-Perl adapter.
+      Key technologies
+      - Ubuntu Linux
+      - FreeBSD
+      - HAProxy
+      - strongSwan, IPSec
+      - Python, Cython, C++
+  - role: C++ Software Engineer
+    time: 2008-02 - 2010-03
+    compnay: Acronis
+    company_logo: https://media.licdn.com/dms/image/C510BAQHpKxsqxdEWjg/company-logo_100_100/0/1519856602358?e=1692230400&v=beta&t=Z_YAo-CYmXn3q-BfjXj9YSI7owZV9vtnxKrzIzyynuU
+    details: |
+      I was a developer of Archiving Storage System which was a part of the Acronis Online Backup.
+      Key responsibilities:
+      - Design and develop a proprietary RPC protocol for intra-server and client-server communication
+      - Develop parts of the Storage server (file storage and retrieval)
+      - Develop components for the Metadata Server - a proprietary multi-master, redundant database designed to store metadata and location information pertaining to customer files.
+      - Design and develop network server software that manages file storage and retrieval requests from customer devices, while efficiently distributing data among storage servers.
+      Key technologies
+      - C++
+      - Reed-Solomon error correction codes.
+      - boost::asio
+  - role: C++ Software Engineer
+    time: 2005-02 - 2007-03
+    company: HopsTeam
+    details: |
+      I have developed software for automating reality show production and archiving on-air TV streams to meet legal requirements. Throughout this process, I have gained extensive experience in C++ programming, working with audio and video programmatically, creating network services, deploying software, and integrating our proprietary software with third-party products and devices, such as Avid systems and DVCam recorders.
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Over the past year, I've spent time on several projects, gaining valuable experience in freelance and self-motivated work styles.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Artifactory
+        link: "https://artifactory.ai"
+        tagline: "Game asset generation with Stable Diffution AI model."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Donate4.Fun
+        link: "https://donate4.fun"
+        tagline: "Bitcoin Lightning tips for social platforms."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: BTC inscriber
+        tagline: "Tool to store an arbitrary data inside a BTC transaction."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: 
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+publications: null
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
       - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
+        years: 11
+      - name: GCP
+        years: 5
+      - name: SQL, PostgreSQL
+        years: 5
+      - name: BigQuery
+        years: 3
+      - name: Kubernetes
+        years: 4
+      - name: Javascript
+        years: 3
+      - name: Bitcoin & LND
+        years: 1
       - name: HTML5 & CSS
-        level: 95%
+        years: 3
+      - name: C++
+        years: 5
+      - name: Linux
+        years: 13
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+footer:

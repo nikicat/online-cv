@@ -18,9 +18,7 @@
   }
 
   .main-wrapper .time {
-    position: static;
     display: block;
-    margin-top: 5px;
   }
 
   .main-wrapper .upper-row {
@@ -34,10 +32,10 @@
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .skillset .level-title {
-    display: inline-block;
-    float: left;
+    #display: inline-block;
+    #float: left;
     width: 30%;
-    margin-bottom: 0;
+    #margin-bottom: 0;
   }
 
   .skillset .level-bar {

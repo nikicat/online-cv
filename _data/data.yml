@@ -81,12 +81,15 @@ experiences:
       - Fully hosted on Kubernetes and deployed using Helm
       - Gained hands-on experience with frontend development using JavaScript and the Svelte framework
       - Created browser extensions for Chrome and Firefox to enhance user experience and functionality
+
       Technology stack
       - GCP
       - Kubernetes
+      - Helm
       - LND/RTL
       - FastAPI
       - PostgreSQL
+      - SQLAlchemy
       - SvelteJS
       - GitHub Actions
   - role: CTO / Head of Engineering
@@ -103,6 +106,7 @@ experiences:
       - Developed a Unity plugin for mobile app analytics using C#
       - Developed an Android library for mobile app analytics using Java.
       - Developed a web service with API for mobile app analytics.
+
       Key technologies
       - GCP, AWS
       - Python, pytest, Django, FastAPI

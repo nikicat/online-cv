@@ -16,7 +16,16 @@
     <div class="item">
 
       <h3 class="level-title">{{ skill.name }}</h3>
-      <div class="level-years"><span class="level-years-number">{{ skill.years }}</span><span class="level-years-measurement">{{ skill.years | pluralize: 'year', 'years' }}</span></div>
+      <div class="level-years">
+        <span class="level-years-number">{{ skill.years }}</span>
+        <span class="level-years-measurement">
+          {% if skill.years > 1 %}
+            years
+          {% else %}
+            year
+          {% endif %}
+        </span>
+      </div>
 
       <!--
       <div class="level-bar">

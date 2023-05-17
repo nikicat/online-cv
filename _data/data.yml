@@ -241,6 +241,8 @@ skills:
         years: 3
       - name: Kubernetes
         years: 4
+      - name: Docker
+        years: 6
       - name: Javascript
         years: 3
       - name: Bitcoin & LND

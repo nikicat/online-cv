@@ -46,7 +46,7 @@ sidebar:
         - item: Snowboarding
           link:
 
-        - item: Reverse-engineering
+        - item: Reverse engineering
           link:
 
 career-profile:
@@ -62,6 +62,12 @@ education:
 experiences:
   title: Work experience
   info:
+  - role: Bitcoin Script Engineer
+    time: 2023-04 - now
+    company: Cryptocurrency bridge
+    company_logo: https://pngimg.com/uploads/question_mark/question_mark_PNG99.png
+    details: |
+      Bitcoin integration to a crypto bridge. Ordinals-like Bitcoin scripting in Python.
   - role: Full-stack Engineer
     time: 2022-12 - 2023-03
     company: Artifactory
@@ -119,6 +125,7 @@ experiences:
     details: |
       - Developed a Gosu.AI post-match analyzer for the Dota 2 MOBA game. Key technologies: Python, Pandas, Java, Docker.
       - Implemented a management service for a Steam-bot fleet using Python and Django.
+      - Implemented clients for various unofficial Steam APIs
       - Developed a pre-match analyzer and web frontend for CS:GO using key technologies such as Steam CS:GO API scraper, Python, and Django.
       - Implemented a cheat detection system for CS:GO and Dota 2, utilizing machine learning models trained on player behavioral game data.
       - Maintained a Kubernetes cluster for the website and match analyzers, implementing autoscaling for optimal performance.
@@ -226,8 +233,6 @@ projects:
 
       - title: BTC inscriber
         tagline: "Tool to store an arbitrary data inside a BTC transaction."
-
-      - title: 
 
 publications: null
 

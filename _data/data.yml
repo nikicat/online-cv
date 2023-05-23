@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Nikolay Bryskin
     tagline:  Software Engineer / Engineering Lead / CTO
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: nbryskin@gmail.com
@@ -22,7 +22,7 @@ sidebar:
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@nbryskin'
+    twitter: nbryskin
     stack-overflow: 1022684/nikicat
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
